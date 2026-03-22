@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 30px;
+  &__search {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    &_form {
+      &_input {
+        border-radius: 10px;
+        background: #4793ff33;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: var(--color);
+        padding: 10px 20px;
+        &::placeholder {
+          color: var(--color);
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &__span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4793ff;
+  }
+}
